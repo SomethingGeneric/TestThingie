@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Open an Issue
-              uses: SomethingGeneric/action-open-issue@v1.2
+              uses: SomethingGeneric/action-open-issue@v1.3
               with:
                 title: "Is this thing on?"
                 body: "I doubt it"
