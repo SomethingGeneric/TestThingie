@@ -1,0 +1,12 @@
+name: "FOo"
+on: [push]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Open an Issue
+              uses: SomethingGeneric/action-open-issue@v1.1
+              env:
+                title: "Is this thing on?"
+                body: "I doubt it"
+                labels: "your_mom"
