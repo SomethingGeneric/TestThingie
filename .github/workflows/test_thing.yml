@@ -6,7 +6,10 @@ jobs:
         steps:
             - name: Open an Issue
               uses: SomethingGeneric/action-open-issue@v1.1
-              env:
+              with:
                 title: "Is this thing on?"
                 body: "I doubt it"
                 labels: "your_mom"
+                pat: ${{ secrets.GHTKN }}
+                repository: "TestThingie"
+                owner: "SomethingGeneric"
